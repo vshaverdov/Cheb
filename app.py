@@ -71,14 +71,14 @@ str2 = """
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 """
 
-#Очистка терминала 
-os.system('cls')
-#Выводим сообщение
-print(str1, end='\r')
-#Задержка на 1 сек
-time.sleep(1)
+slides = [str1, str2, str1, str2, str1, str2, str1, str2]
+for q in slides:
+
+  #Очистка терминала 
+  os.system('cls')
+  #Выводим сообщение
+  print(q, end='\r')
+  #Задержка на 1 сек
+  time.sleep(1)
 
 
-os.system('cls')
-print(str2, end='\r')
-time.sleep(1)
